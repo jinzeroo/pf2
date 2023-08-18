@@ -1,0 +1,50 @@
+#trend{ 
+}
+#trend .wrap {
+  width: 1450px;
+}
+#trend .wrap h2 {
+ margin-bottom: 80px;
+}
+#trend .wrap ul {
+ gap: 20px;
+}
+#trend .wrap ul li {
+ width: calc(100% / 3);
+}
+#trend .wrap ul li::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+#trend .wrap ul li:nth-child(1)::before{
+  background-image: url(../img/c1.png);
+}
+#trend .wrap ul li:nth-child(2)::before{
+  background-image: url(../img/f2.jpg);
+}
+#trend .wrap ul li:nth-child(3)::before{
+  background-image: url(../img/c2.png);
+}
+#trend .wrap ul li:nth-child(4)::before{
+  background-image: url(../img/f4.jpg);
+}
+#trend .wrap ul li h3 {
+  line-height: 3;
+  transform: translateY(7px);
+}
+#trend .wrap ul li p {
+  
+}
+#trend .wrap ul li p span {
+  
+}
+
+#trend .wrap a.siteview span{
+  
+}
